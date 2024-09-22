@@ -15,7 +15,7 @@ const AllProductList = () => {
     )
     return (
         <div className="collection">
-            <h3>Products</h3>
+            <h3>Product</h3>
             <div className="collection-list">
                 {loading ? (<Loading />) : error ? error : products.map((prod) => <Link className="prod-link" to={`/products/${prod._id}`}><div className="product-details">
                     <img src={prod.image[0].imageUrl} alt={prod.image[0].imageDescription} className="product-img" />
