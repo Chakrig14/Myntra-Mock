@@ -1,0 +1,84 @@
+.product-feature-section {
+    display: flex;
+    padding: 10px;
+    max-width: 1600px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.product-feature-section h2 {
+    width: 30%;
+    font-size: 36px;
+    font-family: "Roboto Condensed";
+}
+
+.product-feature-section div {
+    width: 90%;
+    max-width: 900px;
+}
+
+.product-feature {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.product-feature p {
+    font-size: 20px;
+    font-family: "Jost";
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.active {
+    background-color: rgb(217, 223, 209);
+}
+
+.product-feature:hover {
+    cursor: pointer;
+}
+
+.product-feature-description li {
+    list-style-type: circle;
+    font-family: "Maven Pro";
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.product-feature-description li span {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+    padding: 15px 30px;
+}
+
+hr {
+    width: 90%;
+}
+
+@media screen and (max-width: 991px) {
+    .product-feature-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .product-feature-section h2 {
+        width: 100%;
+    }
+
+    .product-feature-section div {
+        width: 100%;
+    }
+
+    hr {
+        width: 100%;
+    }
+}

@@ -1,0 +1,65 @@
+.collection {
+    max-width: 1600px;
+    margin: auto;
+    padding: 10px;
+}
+
+.product-img {
+    width: 300px;
+}
+
+.product-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.product-details h3 {
+    font-family: "Roboto Condensed";
+    text-transform: capitalize;
+}
+
+.price {
+    font-family: "Lato";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: rgb(48, 47, 47);
+}
+
+.collection-list {
+    display: flex;
+}
+
+.product-collection-variant {
+    margin-left: 6px;
+    font-family: "Lato", sans-serif;
+    font-style: italic;
+    color: rgb(119, 119, 117);
+}
+
+.variant-text {
+    font-family: "Lato";
+    font-weight: 600;
+    font-style: italic;
+    color: rgb(66, 64, 64);
+}
+
+.product-details:hover {
+    cursor: pointer;
+    box-shadow: 0 1px 10px #bcbcbc;
+    color: rgb(116, 209, 23);
+}
+
+.prod-link {
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (max-width:800px) {
+    .collection-list {
+        flex-wrap: wrap;
+        align-items: center;
+    }
+}

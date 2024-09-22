@@ -1,0 +1,17 @@
+.sidebar-bg {
+    background-color: #e6f0f0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.sidebar-nav-mobile {
+    position: absolute;
+    background-color: #fff;
+    width: 75%;
+}
+
+.arrow-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

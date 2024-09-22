@@ -1,0 +1,46 @@
+.nav-header {
+    max-width: 1600px;
+    margin: auto;
+    padding: 10px;
+}
+
+.header-logo {
+    width: 150px;
+}
+
+.nav-item {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding-top: 5px;
+}
+
+.nav-item li {
+    cursor: pointer;
+}
+
+.nav-item-active {
+    border-bottom: 3px solid black;
+}
+
+.nav-header-mobile {
+    display: none;
+}
+
+.product-search {
+    width: 35%;
+    padding: 8px;
+    border-radius: 18px;
+    border: 2px solid rgb(44, 44, 44);
+}
+
+@media only screen and (max-width:991px) {
+    .nav-header {
+        display: none;
+    }
+
+    .nav-header-mobile {
+        display: block;
+    }
+}

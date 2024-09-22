@@ -1,0 +1,31 @@
+.footer-section {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #000;
+}
+
+.footer-section h3 {
+    color: #c0f73f;
+    font-weight: 500;
+}
+
+.footer-section ul li {
+    color: #fff;
+    list-style-type: none;
+}
+
+.footer-section p {
+    color: #fff;
+}
+
+@media screen and (max-width:767px) {
+    .footer-section {
+        flex-direction: column;
+    }
+
+    .footer-section div {
+        padding-bottom: 15px;
+    }
+}

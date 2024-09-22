@@ -1,0 +1,119 @@
+.product-image {
+    display: none;
+    width: 70%;
+    max-width: 500px;
+    height: 500px;
+    margin: 0;
+}
+
+.active-image {
+    display: block;
+}
+
+.product-thumbnail-image {
+    width: 60px;
+    box-shadow: 0 1px 5px #c9c8c8;
+    margin: 4px;
+    border-radius: 5px;
+}
+
+.product-thumbnail {
+    display: flex;
+    align-items: center;
+}
+
+.product-thumbnail span,
+img:hover {
+    cursor: pointer;
+}
+
+.active-thumbnail-image {
+    border: 2px solid rgb(121, 121, 121);
+}
+
+.product-images-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+    max-width: 800px;
+}
+
+.product-details-section {
+    width: 50vw;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.product-details-module {
+    display: flex;
+    max-width: 1660px;
+    margin: auto;
+    padding: 10px;
+}
+
+.product-details-price {
+    font-family: "Roboto Condensed";
+    font-weight: 600;
+    color: #434242;
+    font-size: 20px;
+}
+
+.product-details-size span {
+    font-family: "Jost";
+    font-weight: 500;
+    color: #3e3e3e;
+    font-size: 16px;
+}
+
+
+.product-details-size {
+    font-family: "Roboto Condensed";
+    font-weight: 600;
+    color: #434242;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.product-details-price span {
+    font-family: "Lato";
+    font-weight: 500;
+    color: #656464;
+    font-size: 12px;
+}
+
+.product-details-title {
+    font-family: "Kanit";
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 600;
+    color: #1b1b1b;
+    line-height: 32px;
+    margin-bottom: 15px;
+}
+
+.product-details-description {
+    font-family: "Lato";
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #434242;
+}
+
+@media screen and (max-width: 991px) {
+    .product-details-module {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product-images-section {
+        width: 100vw;
+    }
+
+    .product-details-section {
+        width: 100%;
+    }
+}
